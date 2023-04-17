@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "11580428079",
+    "project_id": "instakotlin-dd903",
+    "storage_bucket": "instakotlin-dd903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11580428079:android:0baa08491551c892dc5bda",
+        "android_client_info": {
+          "package_name": "com.kadir.instakotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11580428079-qbqlmlb774nvniqipihci8f0bf7ouc57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfWWOBfA-nxf1FeLgThq9cDt-9JlAIvtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11580428079-qbqlmlb774nvniqipihci8f0bf7ouc57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellow"
+    tools:context=".UploadActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginBottom="95dp"
+        android:onClick="selectimage"
+        app:layout_constraintBottom_toTopOf="@+id/commenttext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upload" />
+
+    <EditText
+        android:id="@+id/commenttext"
+        android:layout_width="261dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="453dp"
+        android:layout_marginBottom="149dp"
+        android:background="#FBF8FB"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint="Enter Comment"
+        android:inputType="textPersonName"
+
+        android:text="asdadsasd"
+        android:textColor="#B50E0E"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="133dp"
+        android:background="#3F51B5"
+        android:onClick="upload"
+        android:text="Upload"
+        android:textColor="@color/white"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commenttext"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="114dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="46dp"
+        android:onClick="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commenttext"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>
